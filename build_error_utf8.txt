@@ -1,0 +1,15 @@
+
+> my-react-app@0.0.0 build
+> vite build
+
+[36mvite v7.3.1 [32mbuilding client environment for production...[36m[39m
+transforming...
+[32m✓[39m 428 modules transformed.
+[31m✗[39m Build failed in 7.19s
+[31merror during build:
+[31mCould not resolve "../../../services/firebase/Auth.js" from "src/components/common/SignUpPage2.jsx"[31m
+file: [36mE:/Web Journey/React/Full Ecomerce Website/my-ecomarce-app/src/components/common/SignUpPage2.jsx[31m
+    at getRollupError (file:///E:/Web%20Journey/React/Full%20Ecomerce%20Website/my-ecomarce-app/node_modules/rollup/dist/es/shared/parseAst.js:401:41)
+    at error (file:///E:/Web%20Journey/React/Full%20Ecomerce%20Website/my-ecomarce-app/node_modules/rollup/dist/es/shared/parseAst.js:397:42)
+    at ModuleLoader.handleInvalidResolvedId (file:///E:/Web%20Journey/React/Full%20Ecomerce%20Website/my-ecomarce-app/node_modules/rollup/dist/es/shared/node-entry.js:21706:24)
+    at file:///E:/Web%20Journey/React/Full%20Ecomerce%20Website/my-ecomarce-app/node_modules/rollup/dist/es/shared/node-entry.js:21666:26[39m
